@@ -3,10 +3,10 @@ import google.generativeai as genai
 from docx import Document
 
 MODEL_NAME = "gemini-1.0-pro";
-API_KEY = "AIzaSyAYHYm8mF6kD0nMfb_GDVwRO6gZ-TR1Xv4";
+API_KEY = "";
 
 
-doc = fitz.open("contoh2.pdf")
+doc = fitz.open("contoh.pdf")
 text = ""
 for page in doc: 
   text += page.get_text()
