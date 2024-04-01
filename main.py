@@ -3,7 +3,7 @@ import google.generativeai as genai
 from docx import Document
 
 MODEL_NAME = "gemini-1.0-pro";
-API_KEY = "AIzaSyAYHYm8mF6kD0nMfb_GDVwRO6gZ-TR1Xv4";
+API_KEY = "";
 
 
 genai.configure(api_key=API_KEY)
