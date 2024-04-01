@@ -1,0 +1,3 @@
+pip install PyMuPDF
+pip install google-generativeai
+pip install python-docx
