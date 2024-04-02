@@ -14,4 +14,4 @@ You need to have Python version **3** or above.
 6. Prepare one pdf journal
 7. Run `py main.py` to start the project
 
-Build With ðŸ’™
+Build With 💙
