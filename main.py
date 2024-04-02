@@ -3,7 +3,7 @@ import google.generativeai as genai
 from docx import Document
 
 MODEL_NAME = "gemini-1.0-pro";
-API_KEY = "";
+API_KEY = "GEMINI_API_KEY";
 
 
 genai.configure(api_key=API_KEY)
@@ -42,7 +42,7 @@ model = genai.GenerativeModel(model_name=MODEL_NAME,
 convo = model.start_chat(history=[
 ])
 
-doc = fitz.open("contoh3.pdf")
+doc = fitz.open("file.pdf")
 
 text = ""
 for page in doc: 
